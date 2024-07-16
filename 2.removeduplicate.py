@@ -1,4 +1,5 @@
-"""remove duplicates in same array until unique elements leave remaining,
+"""Leetcode-26
+remove duplicates in same array until unique elements leave remaining,
 return no.of unique elements"""
 def removeDuplicates(nums):
     i=0
