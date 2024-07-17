@@ -9,7 +9,8 @@ Output: [1,3,12,0,0]
 
 Example 2:
 Input: nums = [0]
-Output: [0]"""
+Output: [0]
+"""
 
 nums=[45192,27382,-659,-52359,-99225,-75991,0,-15155,0,59818,0,-30645,-17025,81209,887,64648]
 i=0
@@ -21,4 +22,5 @@ for j in range(1,len(nums)):
         nums[i]=nums[j]
         nums[j]=temp
         i+=1
+        #iter
 print(nums)
