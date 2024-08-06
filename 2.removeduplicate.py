@@ -1,6 +1,6 @@
 """Leetcode-26
 remove duplicates in same array until unique elements leave remaining,
-return no.of unique elements"""
+return no.of unique elements here,"""
 def removeDuplicates(nums):
     i=0
     for j in range(1,len(nums)):
