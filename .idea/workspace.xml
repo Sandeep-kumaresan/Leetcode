@@ -5,8 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92478609-1b8e-4b40-ab50-1de9260d92c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/5.Remove element.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Bubblesort.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Selectionsort.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,6 +40,7 @@
     "Python.4.Search Index.executor": "Run",
     "Python.5.Remove element.executor": "Debug",
     "Python.Bubblesort.executor": "Run",
+    "Python.Selectionsort.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/sandeep/Documents/Leetcode/Leetcode",
