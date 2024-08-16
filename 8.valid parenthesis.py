@@ -23,7 +23,24 @@ def isValid(s):
     #     return True
     # else:
     #     return False
+    st=[]
+    status=True
     for i in s:
-        if s in '[{(':
+        if i in '[{(':
+            st.append(i)
+        elif len(st)!=0 and st[-1] == '{' and i == '}' :
+            st.pop(len(st) - 1)
+
+        elif len(st)!=0 and st[-1] == '[' and i == ']':
+            st.pop(len(st) - 1)
+
+        elif len(st)!=0 and st[-1] == '(' and i == ')':
+            st.pop(len(st) - 1)
+
+        else:
+            status = False
+    return status
+s="[(])"
+print(isValid(s))
 
 
