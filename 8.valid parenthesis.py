@@ -23,4 +23,7 @@ def isValid(s):
     #     return True
     # else:
     #     return False
+    for i in s:
+        if s in '[{(':
+
 
