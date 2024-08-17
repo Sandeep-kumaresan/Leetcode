@@ -28,19 +28,25 @@ def isValid(s):
     for i in s:
         if i in '[{(':
             st.append(i)
+            status= False
+
+        #if i in '[]{}()' and len(s) == 1:
+            #return True
         elif len(st)!=0 and st[-1] == '{' and i == '}' :
             st.pop(len(st) - 1)
+            status=True
 
         elif len(st)!=0 and st[-1] == '[' and i == ']':
             st.pop(len(st) - 1)
+            status=True
 
         elif len(st)!=0 and st[-1] == '(' and i == ')':
             st.pop(len(st) - 1)
-
+            status=True
         else:
             status = False
     return status
-s="[(])"
+s="("
 print(isValid(s))
 
 
