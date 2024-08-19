@@ -5,8 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92478609-1b8e-4b40-ab50-1de9260d92c3" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/binary to int.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/8.valid parenthesis.py" beforeDir="false" afterPath="$PROJECT_DIR$/8.valid parenthesis.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,9 +41,10 @@
     "Python.5.Remove element.executor": "Debug",
     "Python.6.Concatenation array.executor": "Run",
     "Python.7.ASCII score.executor": "Run",
-    "Python.8.valid parenthesis.executor": "Debug",
+    "Python.8.valid parenthesis.executor": "Run",
     "Python.Bubblesort.executor": "Run",
     "Python.Selectionsort.executor": "Run",
+    "Python.binary to int.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
     "last_opened_file_path": "/home/sandeep/Documents/Web-Scrapping",
