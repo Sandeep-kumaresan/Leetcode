@@ -1,18 +1,30 @@
-#not completed
+#completed
 def removeElement(nums, val):
-    dums = []
+    # count=0
+    # temp=0
+    # j=len(nums)-1
+    # for i in range(len(nums)):
+    #     if i == j:
+    #         break
+    #         nums = nums
+    #     else:
+    #         if nums[j] == val:
+    #             j-=1
+    #         if nums[i] == val:
+    #             temp = nums[i]
+    #             nums[i] = nums[j]
+    #             nums[j] = temp
+    #             count+=1
+    #             j-=1
+    #         else:
+    #             continue
+    # k = (len(nums)-1)-(count)
+    # return k
+    index = 0
     for i in range(len(nums)):
-        if i+1<len(nums):
-            if nums[i] == val and nums[i]+1!=val:
-                temp=nums[i]
-
-            elif nums[i]== val and nums[i]+1==val:
-                nums.pop(i)
-                dums.append(i)
-                nums.pop(i+1)
-                dums.append(i+1)
-    nums += dums
-    return nums
-nums=[1,2,2,3]
-val=2
-print(removeElement(nums,val))
+        if nums[i] != val:
+            nums[index] = nums[i]
+            index += 1
+    return index
+nums= [0,1,2,2,3,0,4,2]
+print(removeElement(nums,val=2))
