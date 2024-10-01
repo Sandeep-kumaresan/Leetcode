@@ -23,30 +23,40 @@ def isValid(s):
     #     return True
     # else:
     #     return False
-    st=[]
-    status=True
+#     st=[]
+#     status=True
+#     for i in s:
+#         if i in '[{(':
+#             st.append(i)
+#             status= False
+#
+#         #if i in '[]{}()' and len(s) == 1:
+#             #return True
+#         elif len(st)!=0 and st[-1] == '{' and i == '}' :
+#             st.pop(len(st) - 1)
+#             status=True
+#
+#         elif len(st)!=0 and st[-1] == '[' and i == ']':
+#             st.pop(len(st) - 1)
+#             status=True
+#
+#         elif len(st)!=0 and st[-1] == '(' and i == ')':
+#             st.pop(len(st) - 1)
+#             status=True
+#         else:
+#             status = False
+#     return status
+# s="(])"
+# print(isValid(s))
+    stack = []
+    dic = {'(':')','{':'}','[':']'}
     for i in s:
-        if i in '[{(':
-            st.append(i)
-            status= False
-
-        #if i in '[]{}()' and len(s) == 1:
-            #return True
-        elif len(st)!=0 and st[-1] == '{' and i == '}' :
-            st.pop(len(st) - 1)
-            status=True
-
-        elif len(st)!=0 and st[-1] == '[' and i == ']':
-            st.pop(len(st) - 1)
-            status=True
-
-        elif len(st)!=0 and st[-1] == '(' and i == ')':
-            st.pop(len(st) - 1)
-            status=True
-        else:
-            status = False
-    return status
-s="("
+        if i in dic:
+            stack.append(i)
+        elif len(stack) == 0 or dic[stack.pop()] != i:
+            return False
+    return len(stack) == 0
+s = "({)"
 print(isValid(s))
 
 
