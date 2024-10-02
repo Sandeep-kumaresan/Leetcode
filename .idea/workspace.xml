@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92478609-1b8e-4b40-ab50-1de9260d92c3" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Anagram.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/start target.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -34,30 +34,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
-    &quot;Python.10.MergeAlternatively.executor&quot;: &quot;Run&quot;,
-    &quot;Python.11.subsequence.executor&quot;: &quot;Run&quot;,
-    &quot;Python.3.Roman to number.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.4.Search Index.executor&quot;: &quot;Run&quot;,
-    &quot;Python.5.Remove element.executor&quot;: &quot;Run&quot;,
-    &quot;Python.6.Concatenation array.executor&quot;: &quot;Run&quot;,
-    &quot;Python.7.ASCII score.executor&quot;: &quot;Run&quot;,
-    &quot;Python.8.valid parenthesis.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Bubblesort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Buy and Sell.executor&quot;: &quot;Debug&quot;,
-    &quot;Python.LongestCommonPrefix.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Selectionsort.executor&quot;: &quot;Run&quot;,
-    &quot;Python.binary to int.executor&quot;: &quot;Run&quot;,
-    &quot;Python.findClosestZero.executor&quot;: &quot;Run&quot;,
-    &quot;Python.zeroend.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/sandeep/Documents/Leetcode/Leetcode&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python.10.MergeAlternatively.executor": "Run",
+    "Python.11.subsequence.executor": "Run",
+    "Python.3.Roman to number.executor": "Debug",
+    "Python.4.Search Index.executor": "Run",
+    "Python.5.Remove element.executor": "Run",
+    "Python.6.Concatenation array.executor": "Run",
+    "Python.7.ASCII score.executor": "Run",
+    "Python.8.valid parenthesis.executor": "Run",
+    "Python.Anagram.executor": "Run",
+    "Python.Bubblesort.executor": "Run",
+    "Python.Buy and Sell.executor": "Debug",
+    "Python.LongestCommonPrefix.executor": "Run",
+    "Python.Selectionsort.executor": "Run",
+    "Python.binary to int.executor": "Run",
+    "Python.findClosestZero.executor": "Run",
+    "Python.start target.executor": "Run",
+    "Python.zeroend.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/home/sandeep/Documents/Leetcode/Leetcode",
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
-}</component>
+}]]></component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
